@@ -1,4 +1,4 @@
-package br.com.alura.leilao.controller;
+package lucaslimb.com.github.leilao.controller;
 
 import java.security.Principal;
 
@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import br.com.alura.leilao.dto.NovoLanceDto;
-import br.com.alura.leilao.dto.NovoLeilaoDto;
-import br.com.alura.leilao.model.Leilao;
-import br.com.alura.leilao.model.Usuario;
-import br.com.alura.leilao.repositories.LeilaoRepository;
-import br.com.alura.leilao.repositories.UsuarioRepository;
+import lucaslimb.com.github.leilao.dto.NovoLanceDto;
+import lucaslimb.com.github.leilao.dto.NovoLeilaoDto;
+import lucaslimb.com.github.leilao.model.Leilao;
+import lucaslimb.com.github.leilao.model.Usuario;
+import lucaslimb.com.github.leilao.repositories.LeilaoRepository;
+import lucaslimb.com.github.leilao.repositories.UsuarioRepository;
 
 @Controller
 @RequestMapping("/leiloes")

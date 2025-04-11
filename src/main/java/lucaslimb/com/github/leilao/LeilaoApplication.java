@@ -1,4 +1,4 @@
-package br.com.alura.leilao;
+package lucaslimb.com.github.leilao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

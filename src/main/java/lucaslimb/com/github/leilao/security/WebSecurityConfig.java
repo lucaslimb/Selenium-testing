@@ -1,4 +1,4 @@
-package br.com.alura.leilao.security;
+package lucaslimb.com.github.leilao.security;
 
 import java.util.Locale;
 

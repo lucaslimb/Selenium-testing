@@ -1,4 +1,4 @@
-package br.com.alura.leilao.controller;
+package lucaslimb.com.github.leilao.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

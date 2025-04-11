@@ -1,4 +1,4 @@
-package br.com.alura.leilao.model;
+package lucaslimb.com.github.leilao.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

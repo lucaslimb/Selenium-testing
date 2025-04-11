@@ -1,15 +1,15 @@
-package br.com.alura.leilao.service;
+package lucaslimb.com.github.leilao.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.leilao.dto.NovoLanceDto;
-import br.com.alura.leilao.model.Lance;
-import br.com.alura.leilao.model.Leilao;
-import br.com.alura.leilao.model.Usuario;
-import br.com.alura.leilao.repositories.LanceRepository;
-import br.com.alura.leilao.repositories.LeilaoRepository;
-import br.com.alura.leilao.repositories.UsuarioRepository;
+import lucaslimb.com.github.leilao.dto.NovoLanceDto;
+import lucaslimb.com.github.leilao.model.Lance;
+import lucaslimb.com.github.leilao.model.Leilao;
+import lucaslimb.com.github.leilao.model.Usuario;
+import lucaslimb.com.github.leilao.repositories.LanceRepository;
+import lucaslimb.com.github.leilao.repositories.LeilaoRepository;
+import lucaslimb.com.github.leilao.repositories.UsuarioRepository;
 
 @Service
 public class LanceService {

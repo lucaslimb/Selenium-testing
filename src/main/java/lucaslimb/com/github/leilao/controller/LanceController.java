@@ -1,4 +1,4 @@
-package br.com.alura.leilao.controller;
+package lucaslimb.com.github.leilao.controller;
 
 import java.security.Principal;
 
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import br.com.alura.leilao.dto.NovoLanceDto;
-import br.com.alura.leilao.model.Leilao;
-import br.com.alura.leilao.service.LanceService;
+import lucaslimb.com.github.leilao.dto.NovoLanceDto;
+import lucaslimb.com.github.leilao.model.Leilao;
+import lucaslimb.com.github.leilao.service.LanceService;
 
 @Controller
 @RequestMapping(value = "/lances")
