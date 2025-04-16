@@ -4,19 +4,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class LeiloesPage {
+public class LeiloesPage extends PageObject{
 
     public static final String NEW_AUCTION_URL = "http://localhost:8080/leiloes/new";
     public static final String AUCTIONS_URL = "http://localhost:8080/leiloes";
-    private ChromeDriver browser;
 
     public LeiloesPage(ChromeDriver browser){
-        this.browser = browser;
+        super(browser);
         browser.navigate().to(AUCTIONS_URL);
-    }
-
-    public void quit() {
-        this.browser.quit();
     }
 
     public CadastroLeilaoPage loadForm() {

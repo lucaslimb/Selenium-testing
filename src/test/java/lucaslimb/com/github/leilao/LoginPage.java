@@ -1,28 +1,16 @@
 package lucaslimb.com.github.leilao;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
-public class LoginPage {
+public class LoginPage extends PageObject {
 
     public static final String URL = "http://localhost:8080/login";
     public static final String URL_ERROR = "http://localhost:8080/login?error";
-    private ChromeDriver browser;
 
     public LoginPage(){
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--incognito");
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-        this.browser = new ChromeDriver(options);
+        super(null);
         browser.navigate().to(URL);
-    }
-
-    public void quit() {
-        this.browser.quit();
     }
 
     public void fillLoginForm(String username, String password) {

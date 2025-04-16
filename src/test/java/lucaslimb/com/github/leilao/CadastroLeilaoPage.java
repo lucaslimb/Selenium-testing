@@ -3,17 +3,12 @@ package lucaslimb.com.github.leilao;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class CadastroLeilaoPage {
+public class CadastroLeilaoPage extends PageObject{
 
-    private ChromeDriver browser;
     public static final String CREATE_AUCTION_URL = "http://localhost:8080/leiloes/new";
 
     public CadastroLeilaoPage(ChromeDriver browser){
-        this.browser = browser;
-    }
-
-    public void quit() {
-        this.browser.quit();
+        super(browser);
     }
 
     public void createAuction(String nome, String valor, String data) {

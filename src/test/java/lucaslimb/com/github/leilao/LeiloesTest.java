@@ -39,7 +39,8 @@ public class LeiloesTest {
     @Test
     public void formValidations(){
         createPage.createAuction("", "", "");
-        Assert.assertTrue(this.createPage.isCurrentPage());
+        Assert.assertFalse(this.createPage.isCurrentPage());
+        Assert.assertTrue(this.leiloesPage.isCurrentPage());
         Assert.assertTrue(this.createPage.isValidationMessagesOn());
     }
 
